@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <head>
+      <title>Mahilipara Shongho</title>
+      <link rel="stylesheet" href="css/Main_Style.css">
+      <link rel="stylesheet" href="css/main_payment.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1>Mahilipara Shongho</h1>
+        <div class="box" style="box-shadow: 0 5px 10px rgba(15, 20, 19, 0.881);">
+            <form>
+                <br>
+                <label for="select">Just Select Your Name:</label><br><br>
+                <select name="select" id="select" onchange="openPage()">
+                  <option>Select Your Name</option>
+                  <option value="romeo">Romeo</option>
+                  <option value="shabug">Shabug</option>
+                  <option value="daniel">Daniel</option>
+                  <option value="sujon">Sujon</option>
+                  <option value="sagor">Sagor</option>
+                  <option value="elieash">Elieash</option>
+                  <option value="joakim">Joakim</option>
+                  <option value="khokon">Khokon</option>
+                  <option value="sushanto">Sushanto</option>
+                  <option value="elio">Elio</option>
+                  <option value="nirmol">Nirmol</option>
+                </select><br><br>
+              </form>
+        </div> 
+     <div class="almem">
+       <center>
+       <p> This Month payments </p>
+        <table>
+          <tr>
+           <th>Name</th>
+           <th>This month</th>
+           <th>Total</th>
+          </tr>
+           <tr>
+            <td>Romeo</td>
+            <td><font color="#00F111">100 tk</font></td>
+            <td><font color="green">100 tk</font></td>
+          </tr>
+          <td>Shabug</td>
+          <td><font color="red">00tk</font></td>
+          <td><font color="red">pending</font></td>
+          </tr>
+          <td>Daniel</td>
+          <td><font color="red">00tk</font></td>
+          <td><font color="red">pending</font></td>
+          </tr>
+          <td>Sagor</td>
+          <td><font color="red">00tk</font></td>
+          <td><font color="red">pending</font></td>
+          </tr>
+          <td>Elieash</td>
+          <td><font color="red">00tk</font></td>
+          <td><font color="red">pending</font></td>
+          </tr>
+          <td>Joakim</td>
+          <td><font color="red">00tk</font></td>
+          <td><font color="red">pending</font></td>
+          </tr>
+          <td>Khokon</td>
+          <td><font color="red">00tk</font></td>
+          <td><font color="red">pending</font></td>
+          </tr>
+          <td>Sushanto</td>
+          <td><font color="red">00tk</font></td>
+          <td><font color="red">pending</font></td>
+          </tr>
+          <td>Elio</td>
+          <td><font color="red">00tk</font></td>
+          <td><font color="red">pending</font></td>
+          </tr>
+          <td>Nirmol</td>
+          <td><font color="red">00tk</font></td>
+          <td><font color="red">pending</font></td>
+          </tr>
+          </table>
+        </center>
+       </div>
+       <div class="payment">
+         <h2>You Can Payment in Online</h2>
+         <p>Choose Payment Method</p><br>
+         <a href="#"><img src="image/bkash.png" class="bkash"></a>
+         <a href="#"><img src="image/nagad.png" class="nagad"></a>
+         <br><br>
+       </div>
+       <p class="copy">copyright© by ARSecurityTeam</p>
+          <script>
+            function openPage() {
+              var select = document.getElementById("select");
+              var selectedOption = select.options[select.selectedIndex].value;
+              window.open("/profile/" + selectedOption + ".html", "_self");
+            }
+          </script>
+    </body>
+</html>
