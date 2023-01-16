@@ -1,0 +1,30 @@
+@media (max-width: 700px){
+.payment {
+    border: solid 2px #000;
+    margin-top: 5%;
+ }
+}
+.payment {
+  border: solid 2px #000;
+  width: 80%;
+  height: 50%;
+  margin-left: 10%;
+  margin-top: 5%;
+  text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.payment p {
+    text-align: center;
+ }
+.bkash {
+width: 90px;
+margin-left: %;
+border-radius: 5px;
+}
+.nagad {
+width: 82px;
+margin-left: 4%;
+border-radius: 5px;
+}
