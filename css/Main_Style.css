@@ -14,6 +14,7 @@ h1 {
     height: 120px;
     margin-left: 40%;
     border-radius: 8px;
+    border: solid 1.5px #000;
 }
 .almem {
     margin-top: 8%;
@@ -42,19 +43,19 @@ th, td {
 }
 @keyframes rotatingRGB {
     0% {
-      border: solid 3px rgb(255, 0, 0);
+      box-shadow: 0 5px 10px rgb(255, 0, 0);
     }
     25% {
-        border: solid 3px rgb(0, 255, 0);
+        box-shadow: 0 5px 10px rgb(0, 255, 0);
     }
     50% {
-        border: solid 3px rgb(0, 0, 255);
+        box-shadow: 0 5px 10px rgb(0, 0, 255);
     }
     75% {
-        border: solid 3px rgb(255, 0, 255);
+        box-shadow: 0 5px 10px rgb(255, 0, 255);
     }
     100% {
-        border: solid 3px rgb(255, 0, 0);
+        box-shadow: 0 5px 10px rgb(255, 0, 0);
     }
   }
   
