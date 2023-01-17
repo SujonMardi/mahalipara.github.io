@@ -4,7 +4,7 @@ body {
 h1 {
     text-align: center;
     color: #fff;
-    text-shadow: 2px 2px 5px rgb(0, 0, 0), -2px -2px 5px rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgb(232, 39, 39), -2px -2px 5px rgb(17, 100, 242);
 }
 .box img {
     width: 200px;
